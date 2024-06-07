@@ -2,7 +2,7 @@
 
 Este projeto tem como objetivo desenvolver um sistema de alocação de recursos otimizado para a conservação de tartarugas marinhas ao longo do litoral brasileiro. 
 Utilizamos programação dinâmica para otimizar a distribuição de recursos limitados e selecionar as áreas marinhas prioritárias para proteção. 
-Como base para as áreas litorâneas utilizadas pelo grupo, utilizamos ambientes em que a ONG Projeto Tamar já atua. 
+Como base para as áreas litorâneas utilizadas pelo grupo, utilizamos ambientes em que a ONG Projeto Tamar já atua. \n
 Para encontrar a combinação ótima de áreas marinhas a serem protegidas que proporciona o maior benefício possível, considerando os critérios de biodiversidade, vulnerabilidade e conectividade, 
 dentro das restrições impostas pelos recursos disponíveis.
 
