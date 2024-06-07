@@ -14,9 +14,8 @@ areas = [
 ]
 
 # função para calcular o valor de uma área marinha
-"""o valor final é uma combinação ponderada desses atributos, ou seja, 
-biodiversidade, vulnerabilidade e conectividade, que separamos em "pesos" 
-de importancia (respectivamente 50%, 30% e 20%)"""
+"""o valor final é uma combinação ponderada dos atributos: biodiversidade, vulnerabilidade e conectividade, que separamos em "pesos" 
+de importância (respectivamente 50%, 30% e 20%)"""
 def calcular_valor_area(area):
     return area['biodiversidade'] * 0.5 + area['vulnerabilidade'] * 0.3 + area['conectividade'] * 0.2 
 
@@ -42,11 +41,11 @@ def otimizar_alocacao(areas, recursos_totais):
     
     return dp[n][recursos_totais], res
 
-# Utilizando dados fictícios para encontrar a alocação ótima de recursos
+# utilizando dados fictícios para encontrar a alocação ótima de recursos
 recursos_totais = 300
 valor_otimo, areas_selecionadas = otimizar_alocacao(areas, recursos_totais)
 
-print(f'Valor para uma ótima alocação de recursos: {valor_otimo}')
+print(f'Valor para a alocação ótima de recursos: {valor_otimo}')
 print('Áreas selecionadas para proteção:')
 for area in areas_selecionadas:
     print(area)
